@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "hello github CICD"
+echo "hello github CICD 2"
