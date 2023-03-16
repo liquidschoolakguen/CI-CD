@@ -29,3 +29,11 @@ jobs:
       - name: Run mein custom-script
         run: ./custom.sh
 
+      # Runs a single command using the runners shell
+      - name: A
+        run: chmod a+x custom_b.sh
+
+      # Runs a single command using the runners shell
+      - name: B
+        run: ./custom_b.sh
+
